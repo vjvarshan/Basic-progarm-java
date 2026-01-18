@@ -35,7 +35,7 @@ import java.util.Scanner;
 
 // count odd numbers only
 
-public class count {
+/*public class count {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
@@ -46,6 +46,24 @@ public class count {
             if(i%2!=0){
                 count++;
             }
+        }
+        System.out.println(count);
+    }
+
+}*/
+
+// count digit 
+
+public class count {
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int count = 0;
+
+        for(;a>0;a=a/10){
+          int b = a%10;
+          count++;
         }
         System.out.println(count);
     }
