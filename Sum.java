@@ -33,6 +33,8 @@ import java.util.Scanner;
     }
 }*/
 
+// Sum of Odd Numbers
+
 public class Sum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -47,4 +49,5 @@ public class Sum {
         System.out.println(sum);
     }
 }
+
 
